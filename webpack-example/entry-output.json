@@ -1,0 +1,10 @@
+{
+    "entry": {
+        "components": "./components.js"
+    },
+    "output": {
+        "filename": "[name].build.js",
+        "libraryTarget": "var",
+        "library": "MR"
+    }
+}

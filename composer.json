@@ -1,0 +1,17 @@
+{
+    "name": "mpw/php-reactjs",
+    "license": "MIT",
+    "require": {
+        "php": "~7.0",
+        "ext-v8js": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0",
+        "theseer/phpdox": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mpw\\V8\\": "src/"
+        }
+    }
+}
